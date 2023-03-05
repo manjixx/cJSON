@@ -96,8 +96,8 @@ then using the CJSON_API_VISIBILITY flag to "export" the same symbols the way CJ
 #define cJSON_Object (1 << 6)
 #define cJSON_Raw    (1 << 7) /* raw json */
 
-#define cJSON_IsReference 256
-#define cJSON_StringIsConst 512
+#define cJSON_IsReference 256   /* reference */
+#define cJSON_StringIsConst 512 /* const */
 
 /* The cJSON structure: */
 typedef struct cJSON
